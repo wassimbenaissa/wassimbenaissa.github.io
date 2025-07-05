@@ -1,5 +1,3 @@
-"use client"
-
 import { ClientBlogPost } from "./ClientBlogPost"
 
 // This would typically come from your markdown files
