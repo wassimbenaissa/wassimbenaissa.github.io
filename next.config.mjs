@@ -15,8 +15,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   // Configure for GitHub Pages if not using custom domain
-  //basePath: process.env.NODE_ENV === 'production' ? '/wsmbns.github.io' : '',
-  //assetPrefix: process.env.NODE_ENV === 'production' ? '/personal-website/' : '',
+  basePath: "/wsmbns.github.io",
+  assetPrefix: "/wsmbns.github.io/",
 }
 
 const withMDX = createMDX({
