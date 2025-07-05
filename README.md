@@ -98,3 +98,18 @@ If you have a custom domain:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Deploy on Github Pages
+
+To deploy this website on GitHub Pages, you need to:
+
+1.  Go to your repository's **Settings**.
+2.  In the **Pages** section, select **GitHub Actions** as the deployment source.
+
+The website will be deployed automatically on every push to the `main` branch.
