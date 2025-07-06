@@ -14,9 +14,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Configure for GitHub Pages if not using custom domain
-  basePath: "/wsmbns.github.io",
-  assetPrefix: "/wsmbns.github.io/",
 }
 
 const withMDX = createMDX({
