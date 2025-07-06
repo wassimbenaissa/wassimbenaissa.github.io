@@ -65,35 +65,6 @@ export default function Home() {
           </div>
         </CardContent>
       </Card>
-
-      {/* Contact Section */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Get In Touch</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="flex flex-wrap gap-4">
-            <Button variant="outline" asChild>
-              <Link href="mailto:john@example.com">
-                <Mail className="w-4 h-4 mr-2" />
-                Email
-              </Link>
-            </Button>
-            <Button variant="outline" asChild>
-              <Link href="https://github.com/johndoe" target="_blank">
-                <Github className="w-4 h-4 mr-2" />
-                GitHub
-              </Link>
-            </Button>
-            <Button variant="outline" asChild>
-              <Link href="https://linkedin.com/in/johndoe" target="_blank">
-                <Linkedin className="w-4 h-4 mr-2" />
-                LinkedIn
-              </Link>
-            </Button>
-          </div>
-        </CardContent>
-      </Card>
     </div>
   )
 }
