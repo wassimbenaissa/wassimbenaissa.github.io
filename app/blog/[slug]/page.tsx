@@ -2,82 +2,56 @@ import { ClientBlogPost } from "./ClientBlogPost"
 
 // This would typically come from your markdown files
 const blogPosts = {
-  "getting-started-with-nextjs": {
-    title: "Getting Started with Next.js 15",
+  "the-art-of-product-roadmapping": {
+    title: "The Art of Product Roadmapping",
     date: "2024-01-15",
-    readTime: "5 min read",
-    tags: ["Next.js", "React", "Web Development"],
+    readTime: "7 min read",
+    tags: ["Product Management", "Strategy", "Roadmap"],
     content: `
-# Getting Started with Next.js 15
+# The Art of Product Roadmapping
 
-Next.js 15 brings exciting new features and improvements that make building React applications even more enjoyable. In this post, we'll explore the key features and how to get started.
+A well-crafted product roadmap is a powerful tool for aligning your team and stakeholders. It communicates the 'why' behind what you're building and sets a clear direction for the future.
 
-## What's New in Next.js 15
+## Key Elements of a Great Roadmap
 
-### App Router Improvements
-The App Router continues to evolve with better performance and developer experience improvements.
+### 1. Outcome-Oriented Goals
+Focus on the problems you're solving for users, not just the features you're shipping.
 
-### Enhanced Server Components
-Server Components are now more powerful and easier to use, allowing for better performance and SEO.
+### 2. Prioritization Framework
+Use a consistent framework (e.g., RICE, MoSCoW) to make informed decisions about what to build next.
 
-## Getting Started
-
-To create a new Next.js 15 project, run:
-
-\`\`\`bash
-npx create-next-app@latest my-app
-cd my-app
-npm run dev
-\`\`\`
-
-## Key Features
-
-1. **Improved Performance** - Faster builds and runtime performance
-2. **Better Developer Experience** - Enhanced error messages and debugging
-3. **New APIs** - Additional hooks and utilities for common use cases
+### 3. Clear Communication
+Your roadmap should be easy for anyone in the company to understand, from engineers to executives.
 
 ## Conclusion
 
-Next.js 15 is a solid upgrade that brings meaningful improvements to the developer experience while maintaining the framework's core strengths.
+A product roadmap is a living document. Regularly review and adapt it as you learn more about your users and the market.
     `,
   },
-  "typescript-best-practices": {
-    title: "TypeScript Best Practices for React Developers",
+  "mastering-user-interviews": {
+    title: "Mastering User Interviews: A Guide for PMs",
     date: "2024-01-10",
-    readTime: "8 min read",
-    tags: ["TypeScript", "React", "Best Practices"],
+    readTime: "9 min read",
+    tags: ["User Research", "Product Management", "UX"],
     content: `
-# TypeScript Best Practices for React Developers
+# Mastering User Interviews: A Guide for PMs
 
-TypeScript has become an essential tool for React developers. Here are some best practices to help you write better TypeScript code.
+User interviews are one of the most effective ways to gain deep insights into your users' needs and pain points.
 
-## Type Your Props Properly
+## Best Practices for Effective Interviews
 
-Always define interfaces for your component props:
+### Ask Open-Ended Questions
+Avoid leading questions that might bias the user's answers. Instead of "Do you like this feature?", try "How does this feature fit into your workflow?"
 
-\`\`\`typescript
-interface ButtonProps {
-  children: React.ReactNode
-  onClick: () => void
-  variant?: 'primary' | 'secondary'
-}
+### Listen More Than You Talk
+The goal is to understand the user's perspective. Give them space to share their thoughts without interruption.
 
-const Button: React.FC<ButtonProps> = ({ children, onClick, variant = 'primary' }) => {
-  return (
-    <button onClick={onClick} className={\`btn btn-\${variant}\`}>
-      {children}
-    </button>
-  )
-}
-\`\`\`
-
-## Use Generic Types
-
-Generic types make your components more flexible and reusable.
+### Dig Deeper
+When a user mentions something interesting, don't be afraid to ask "Why?" to uncover the underlying motivations.
 
 ## Conclusion
 
-Following these practices will help you write more maintainable and type-safe React applications.
+Mastering the art of the user interview is a critical skill for any product manager. It's how you build empathy and ensure you're solving real problems for your users.
     `,
   },
 }

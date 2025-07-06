@@ -17,79 +17,26 @@ export default function Resume() {
       {/* Experience */}
       <Card>
         <CardHeader>
-          <CardTitle>Work Experience</CardTitle>
+          <CardTitle>Experience</CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
-          <div className="border-l-2 border-primary pl-4 space-y-4">
-            <div>
-              <div className="flex items-start justify-between mb-2">
-                <div>
-                  <h3 className="font-semibold text-lg">Senior Full Stack Developer</h3>
-                  <p className="text-primary font-medium">TechCorp Inc.</p>
-                </div>
-                <div className="text-right text-sm text-muted-foreground">
-                  <div className="flex items-center gap-1">
-                    <Calendar className="w-3 h-3" />
-                    2022 - Present
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <MapPin className="w-3 h-3" />
-                    San Francisco, CA
-                  </div>
-                </div>
-              </div>
-              <ul className="text-muted-foreground space-y-1 text-sm">
-                <li>• Led development of customer-facing web applications serving 100K+ users</li>
-                <li>• Implemented CI/CD pipelines reducing deployment time by 60%</li>
-                <li>• Mentored junior developers and conducted code reviews</li>
-              </ul>
-              <div className="flex flex-wrap gap-1 mt-2">
-                <Badge variant="outline" className="text-xs">
-                  React
-                </Badge>
-                <Badge variant="outline" className="text-xs">
-                  Node.js
-                </Badge>
-                <Badge variant="outline" className="text-xs">
-                  AWS
-                </Badge>
-              </div>
-            </div>
-
-            <div>
-              <div className="flex items-start justify-between mb-2">
-                <div>
-                  <h3 className="font-semibold text-lg">Full Stack Developer</h3>
-                  <p className="text-primary font-medium">StartupXYZ</p>
-                </div>
-                <div className="text-right text-sm text-muted-foreground">
-                  <div className="flex items-center gap-1">
-                    <Calendar className="w-3 h-3" />
-                    2020 - 2022
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <MapPin className="w-3 h-3" />
-                    Remote
-                  </div>
-                </div>
-              </div>
-              <ul className="text-muted-foreground space-y-1 text-sm">
-                <li>• Built and maintained multiple client projects using modern web technologies</li>
-                <li>• Collaborated with design team to implement pixel-perfect UI components</li>
-                <li>• Optimized application performance resulting in 40% faster load times</li>
-              </ul>
-              <div className="flex flex-wrap gap-1 mt-2">
-                <Badge variant="outline" className="text-xs">
-                  Vue.js
-                </Badge>
-                <Badge variant="outline" className="text-xs">
-                  Python
-                </Badge>
-                <Badge variant="outline" className="text-xs">
-                  PostgreSQL
-                </Badge>
-              </div>
-            </div>
+          <div>
+            <h3 className="text-xl font-semibold">Senior Product Manager</h3>
+            <p className="text-muted-foreground">Tech Solutions Inc. | 2020 - Present</p>
+            <ul className="list-disc list-inside mt-2 prose prose-neutral dark:prose-invert">
+              <li>Led the development and launch of a new B2B SaaS platform, resulting in a 30% increase in user acquisition.</li>
+              <li>Defined product strategy and roadmap, conducted user research, and managed the product backlog.</li>
+              <li>Collaborated with engineering, design, and marketing teams to deliver high-impact features.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">Product Manager</h3>
+            <p className="text-muted-foreground">Innovate Co. | 2018 - 2020</p>
+            <ul className="list-disc list-inside mt-2 prose prose-neutral dark:prose-invert">
+              <li>Managed the product lifecycle of a mobile application from conception to launch.</li>
+              <li>Analyzed user data and market trends to inform product decisions.</li>
+              <li>Worked closely with stakeholders to ensure alignment on product goals.</li>
+            </ul>
           </div>
         </CardContent>
       </Card>
@@ -100,20 +47,13 @@ export default function Resume() {
           <CardTitle>Education</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="border-l-2 border-primary pl-4">
-            <div className="flex items-start justify-between">
-              <div>
-                <h3 className="font-semibold text-lg">Bachelor of Science in Computer Science</h3>
-                <p className="text-primary font-medium">University of California, Berkeley</p>
-              </div>
-              <div className="text-right text-sm text-muted-foreground">
-                <div className="flex items-center gap-1">
-                  <Calendar className="w-3 h-3" />
-                  2016 - 2020
-                </div>
-              </div>
-            </div>
-            <p className="text-muted-foreground text-sm mt-1">Graduated Magna Cum Laude • GPA: 3.8/4.0</p>
+          <div>
+            <h3 className="text-xl font-semibold">Master of Business Administration (MBA)</h3>
+            <p className="text-muted-foreground">Stanford University | 2016 - 2018</p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-xl font-semibold">Bachelor of Science in Computer Science</h3>
+            <p className="text-muted-foreground">University of California, Berkeley | 2012 - 2016</p>
           </div>
         </CardContent>
       </Card>

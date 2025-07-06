@@ -14,11 +14,11 @@ export default function Home() {
         </div>
         <h1 className="text-4xl font-bold tracking-tight">John Doe</h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Full Stack Developer & UI/UX Designer passionate about creating beautiful, functional digital experiences
+          Product Manager passionate about building products that users love.
         </p>
         <div className="flex items-center justify-center gap-2 text-muted-foreground">
           <MapPin className="w-4 h-4" />
-          <span>San Francisco, CA</span>
+          <span>Paris</span>
         </div>
       </section>
 
@@ -29,12 +29,10 @@ export default function Home() {
         </CardHeader>
         <CardContent className="prose prose-neutral dark:prose-invert max-w-none">
           <p>
-            I'm a passionate full-stack developer with over 5 years of experience building web applications. I love
-            working with modern technologies like React, Next.js, and TypeScript to create seamless user experiences.
+            I'm a passionate product manager with over 5 years of experience leading cross-functional teams to build and launch successful products. I love working at the intersection of technology, business, and user experience.
           </p>
           <p>
-            When I'm not coding, you can find me exploring new coffee shops, hiking in the mountains, or contributing to
-            open-source projects.
+            When I'm not shipping products, you can find me exploring new coffee shops, hiking in the mountains, or reading about the latest tech trends.
           </p>
         </CardContent>
       </Card>
@@ -47,18 +45,18 @@ export default function Home() {
         <CardContent>
           <div className="flex flex-wrap gap-2">
             {[
-              "React",
-              "Next.js",
-              "TypeScript",
-              "Node.js",
-              "Python",
-              "PostgreSQL",
-              "Tailwind CSS",
-              "Docker",
-              "AWS",
-              "Git",
+              "Product Strategy",
+              "Roadmap Planning",
+              "User Research",
+              "Agile Methodologies",
+              "Jira & Confluence",
+              "Market Analysis",
+              "A/B Testing",
+              "Data Analysis",
               "Figma",
-              "GraphQL",
+              "SQL",
+              "Stakeholder Management",
+              "Go-to-Market Strategy",
             ].map((skill) => (
               <Badge key={skill} variant="secondary">
                 {skill}
